@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Volkorn',serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+/* 1rem = 16px */
+/* convert 1rem to 10px */
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --primary-color:#2b81e4;
+    --secondary-color: #eee;
+    --white-color: #fff;
+    --grey-color: #555;
+    --light-grey-color: #777;
+}
+
+/* to center with flexbox */
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
